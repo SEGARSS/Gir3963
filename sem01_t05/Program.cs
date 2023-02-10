@@ -7,7 +7,7 @@
 Console.Write("Введите число: ");
 var number = Convert.ToInt32(Console.ReadLine());
 
-if (number > 99 && number <1000)
+if (number > 0 && number <100)
 {
     Console.WriteLine(number%10);
 }
