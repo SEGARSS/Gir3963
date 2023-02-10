@@ -17,12 +17,12 @@ if(inputNum != null)
 
     //Находим квадрат числа
     //int outNum = number*number;
-    //Другой пример ниже
+    //Другой пример
     //int outNum = (int)Math.Pow(number,2);
 
     //Выводим данные в консоль
     //Console.WriteLine(outNum);
 
-    //Оптимизированный вариант ниже
+    //Оптимизированный вариант 
     Console.WriteLine(Math.Pow(int.Parse(inputNum),2));
 }
