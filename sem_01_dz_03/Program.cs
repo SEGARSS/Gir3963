@@ -11,9 +11,9 @@ Console.Write("Введите число: ");
 int A = Convert.ToInt32(Console.ReadLine());
 if(A % 2 == 1)
 {
-   Console.WriteLine("Число " + A + " является: НЕЧЁТНЫМ"); 
+   Console.WriteLine(A + " -> нет"); 
 }
 else
 {
-   Console.WriteLine("Число " + A + " является: ЧЁТНЫМ");
+   Console.WriteLine(A + " -> да");
 }
