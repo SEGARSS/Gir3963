@@ -14,6 +14,8 @@ int B = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int C = Convert.ToInt32(Console.ReadLine());
 int max = A;
+/*
+Первый вариант решения
 if (B > max)
 {
     max = B;
@@ -22,5 +24,13 @@ if (C > max)
 {
     max = C;
 }
+Console.Write("Наибольшее из введённых чисел = ");
+Console.Write(max);
+*/
+
+//Второй вариант решения
+if (A > max) max = A;
+if (B > max) max = B;
+if (C > max) max = C;
 Console.Write("Наибольшее из введённых чисел = ");
 Console.Write(max);
