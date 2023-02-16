@@ -8,7 +8,7 @@
 32679 -> 6
 */
 
-Console.Write("Введите трехзначное число ");
+Console.Write("Введите число ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 if (ThirdDigit(number1) == -1)
 Console.WriteLine("третьей цифры нет");
