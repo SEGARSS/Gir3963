@@ -62,14 +62,14 @@ int[] SwapNewArray(int[] arr)
 
 int arrLng = ReadDataToInt("Enter a number of elements in array: ");//user enters the number of elements in arr to generate
 int[] arr = Gen1DArrInt(arrLng, 10, 100);//generates a random array of 3-digit values
-Print1DArr(arr); //output generated array into console
+Print1DArr(arr); 
 
 //swap by reference type
 Console.WriteLine();
 SwapArray(arr);
-Print1DArr(arr); //output generated array into console
+Print1DArr(arr); 
 
 //swap by new array
 Console.WriteLine();
 int[] testArr = SwapNewArray(arr);
-Print1DArr(testArr); //output generated array into console
+Print1DArr(testArr); 
