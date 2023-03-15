@@ -13,16 +13,16 @@ string? inputNum = Console.ReadLine();
 if(inputNum != null)
 {
     //Парсим введённое число
-    //int number = int.Parse(inputNum);
+    int number = int.Parse(inputNum);
 
     //Находим квадрат числа
-    //int outNum = number*number;
+    int outNum = number*number;
     //Другой пример
     //int outNum = (int)Math.Pow(number,2);
 
     //Выводим данные в консоль
-    //Console.WriteLine(outNum);
+    Console.WriteLine(outNum);
 
     //Оптимизированный вариант 
-    Console.WriteLine(Math.Pow(int.Parse(inputNum),2));
+    //Console.WriteLine(Math.Pow(int.Parse(inputNum),2));
 }
